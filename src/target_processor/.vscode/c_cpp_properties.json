@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/sgari/BIRDS_research/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/sgari/BIRDS_research/catkin_ws/src/realsense-ros/realsense2_camera/include/**",
+        "/home/sgari/BIRDS_research/catkin_ws/src/replayer/include/**",
+        "/home/sgari/BIRDS_research/catkin_ws/src/ssl_slam/include/**",
+        "/home/sgari/BIRDS_research/catkin_ws/src/target_processor/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

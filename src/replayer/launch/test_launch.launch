@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<launch>
+   
+    <!-- <include file="$(find realsense2_camera)/launch/rs_camera.launch">
+        <arg name="color_width" value="1280" />
+        <arg name="color_height" value="720" />
+        <arg name="filters" value="pointcloud" />
+
+    </include> -->
+
+    <node pkg="rosbag" type="play" name="player" output="screen" args="--clock -l /home/sriram/DPLR/dplr_ws/src/bagfiles/refrence/test_3D_2D.bag"/>
+
+     <!-- <node pkg="replayer" name="yellow_mask_generator" type="mask.py" output="screen">
+
+    </node>  -->
+
+
+    <!-- <node pkg="ssl_slam" name="ssl_slam_image2pc_node" type="ssl_slam_image2pc_node" output="screen">
+    </node>  -->
+
+
+    <node name="rviz" pkg="rviz" type="rviz" args="-d /home/sriram/DPLR/dplr_ws/src/replayer/test_SR.rviz"/>
+</launch>

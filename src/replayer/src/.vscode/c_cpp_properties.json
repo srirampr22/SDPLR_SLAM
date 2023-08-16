@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/noetic/include/**",
+                "/home/sriram/DPLR/dplr_ws/devel/include/**",
+                "/home/sriram/DPLR/dplr_ws/src/jsk_visualization/jsk_interactive_markers/jsk_interactive_marker/include/**",
+                "/home/sriram/DPLR/dplr_ws/src/realsense-ros/realsense2_camera/include/**",
+                "/home/sriram/DPLR/dplr_ws/src/replayer/include/**",
+                "/home/sriram/DPLR/dplr_ws/src/ssl_slam/include/**",
+                "/home/sriram/DPLR/dplr_ws/src/target_processor/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

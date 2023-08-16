@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>target_processor</name>
+  <version>0.0.0</version>
+  <description>The target_processor package</description>
+
+  <!-- One maintainer tag required, multiple allowed, one person per tag -->
+  <!-- Example:  -->
+  <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
+  <maintainer email="sgari@todo.todo">sgari</maintainer>
+
+
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <!-- Commonly used license strings: -->
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>TODO</license>
+
+
+  <!-- Url tags are optional, but multiple are allowed, one per tag -->
+  <!-- Optional attribute type can be: website, bugtracker, or repository -->
+  <!-- Example: -->
+  <!-- <url type="website">http://wiki.ros.org/target_processor</url> -->
+
+
+  <!-- Author tags are optional, multiple are allowed, one per tag -->
+  <!-- Authors do not have to be maintainers, but could be -->
+  <!-- Example: -->
+  <!-- <author email="jane.doe@example.com">Jane Doe</author> -->
+
+
+  <!-- The *depend tags are used to specify dependencies -->
+  <!-- Dependencies can be catkin packages or system dependencies -->
+  <!-- Examples: -->
+  <!-- Use depend as a shortcut for packages that are both build and exec dependencies -->
+  <!--   <depend>roscpp</depend> -->
+  <!--   Note that this is equivalent to the following: -->
+  <!--   <build_depend>roscpp</build_depend> -->
+  <!--   <exec_depend>roscpp</exec_depend> -->
+  <!-- Use build_depend for packages you need at compile time: -->
+  <!--   <build_depend>message_generation</build_depend> -->
+  <!-- Use build_export_depend for packages you need in order to build against this package: -->
+  <!--   <build_export_depend>message_generation</build_export_depend> -->
+  <!-- Use buildtool_depend for build tool packages: -->
+  <!--   <buildtool_depend>catkin</buildtool_depend> -->
+  <!-- Use exec_depend for packages you need at runtime: -->
+  <!--   <exec_depend>message_runtime</exec_depend> -->
+  <!-- Use test_depend for packages you need only for testing: -->
+  <!--   <test_depend>gtest</test_depend> -->
+  <!-- Use doc_depend for packages you need only for building documentation: -->
+  <!--   <doc_depend>doxygen</doc_depend> -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>genmsg</buildtool_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>actionlib_msgs</build_depend>
+  <build_depend>cpp_common</build_depend>
+  <build_depend>eigen_conversions</build_depend>
+  <build_depend>gencpp</build_depend>
+  <build_depend>geneus</build_depend>
+  <build_depend>genlisp</build_depend>
+  <build_depend>gennodejs</build_depend>
+  <build_depend>genpy</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>message_filters</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>octomap</build_depend>
+  <build_depend>octomap_msgs</build_depend>
+  <build_depend>octomap_ros</build_depend>
+  <build_depend>orocos_kdl</build_depend>
+  <build_depend>pluginlib</build_depend>
+  <build_depend>ros_environment</build_depend>
+  <build_depend>rosbag</build_depend>
+  <build_depend>rosbag_storage</build_depend>
+  <build_depend>rosbuild</build_depend>
+  <build_depend>rosclean</build_depend>
+  <build_depend>rosconsole</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>roscpp_serialization</build_depend>
+  <build_depend>roscpp_traits</build_depend>
+  <build_depend>rosgraph</build_depend>
+  <build_depend>rosgraph_msgs</build_depend>
+  <build_depend>roslaunch</build_depend>
+  <build_depend>roslib</build_depend>
+  <build_depend>roslz4</build_depend>
+  <build_depend>rosmaster</build_depend>
+  <build_depend>rosmsg</build_depend>
+  <build_depend>rosnode</build_depend>
+  <build_depend>rosout</build_depend>
+  <build_depend>rospack</build_depend>
+  <build_depend>rosparam</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>rosservice</build_depend>
+  <build_depend>rostest</build_depend>
+  <build_depend>rostime</build_depend>
+  <build_depend>rostopic</build_depend>
+  <build_depend>rosunit</build_depend>
+  <build_depend>roswtf</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>std_srvs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>tf2</build_depend>
+  <build_depend>tf2_msgs</build_depend>
+  <build_depend>tf2_py</build_depend>
+  <build_depend>tf2_ros</build_depend>
+  <build_depend>topic_tools</build_depend>
+  <build_depend>xmlrpcpp</build_depend>
+  <build_export_depend>actionlib</build_export_depend>
+  <build_export_depend>actionlib_msgs</build_export_depend>
+  <build_export_depend>cpp_common</build_export_depend>
+  <build_export_depend>eigen_conversions</build_export_depend>
+  <build_export_depend>gencpp</build_export_depend>
+  <build_export_depend>geneus</build_export_depend>
+  <build_export_depend>genlisp</build_export_depend>
+  <build_export_depend>gennodejs</build_export_depend>
+  <build_export_depend>genpy</build_export_depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>message_filters</build_export_depend>
+  <build_export_depend>nav_msgs</build_export_depend>
+  <build_export_depend>octomap</build_export_depend>
+  <build_export_depend>octomap_msgs</build_export_depend>
+  <build_export_depend>octomap_ros</build_export_depend>
+  <build_export_depend>orocos_kdl</build_export_depend>
+  <build_export_depend>pluginlib</build_export_depend>
+  <build_export_depend>ros_environment</build_export_depend>
+  <build_export_depend>rosbag</build_export_depend>
+  <build_export_depend>rosbag_storage</build_export_depend>
+  <build_export_depend>rosbuild</build_export_depend>
+  <build_export_depend>rosclean</build_export_depend>
+  <build_export_depend>rosconsole</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>roscpp_serialization</build_export_depend>
+  <build_export_depend>roscpp_traits</build_export_depend>
+  <build_export_depend>rosgraph</build_export_depend>
+  <build_export_depend>rosgraph_msgs</build_export_depend>
+  <build_export_depend>roslaunch</build_export_depend>
+  <build_export_depend>roslib</build_export_depend>
+  <build_export_depend>roslz4</build_export_depend>
+  <build_export_depend>rosmaster</build_export_depend>
+  <build_export_depend>rosmsg</build_export_depend>
+  <build_export_depend>rosnode</build_export_depend>
+  <build_export_depend>rosout</build_export_depend>
+  <build_export_depend>rospack</build_export_depend>
+  <build_export_depend>rosparam</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>rosservice</build_export_depend>
+  <build_export_depend>rostest</build_export_depend>
+  <build_export_depend>rostime</build_export_depend>
+  <build_export_depend>rostopic</build_export_depend>
+  <build_export_depend>rosunit</build_export_depend>
+  <build_export_depend>roswtf</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>std_srvs</build_export_depend>
+  <build_export_depend>tf</build_export_depend>
+  <build_export_depend>tf2</build_export_depend>
+  <build_export_depend>tf2_msgs</build_export_depend>
+  <build_export_depend>tf2_py</build_export_depend>
+  <build_export_depend>tf2_ros</build_export_depend>
+  <build_export_depend>topic_tools</build_export_depend>
+  <build_export_depend>xmlrpcpp</build_export_depend>
+  <exec_depend>actionlib</exec_depend>
+  <exec_depend>actionlib_msgs</exec_depend>
+  <exec_depend>cpp_common</exec_depend>
+  <exec_depend>eigen_conversions</exec_depend>
+  <exec_depend>gencpp</exec_depend>
+  <exec_depend>geneus</exec_depend>
+  <exec_depend>genlisp</exec_depend>
+  <exec_depend>gennodejs</exec_depend>
+  <exec_depend>genpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>message_filters</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>octomap</exec_depend>
+  <exec_depend>octomap_msgs</exec_depend>
+  <exec_depend>octomap_ros</exec_depend>
+  <exec_depend>orocos_kdl</exec_depend>
+  <exec_depend>pluginlib</exec_depend>
+  <exec_depend>ros_environment</exec_depend>
+  <exec_depend>rosbag</exec_depend>
+  <exec_depend>rosbag_storage</exec_depend>
+  <exec_depend>rosbuild</exec_depend>
+  <exec_depend>rosclean</exec_depend>
+  <exec_depend>rosconsole</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>roscpp_serialization</exec_depend>
+  <exec_depend>roscpp_traits</exec_depend>
+  <exec_depend>rosgraph</exec_depend>
+  <exec_depend>rosgraph_msgs</exec_depend>
+  <exec_depend>roslaunch</exec_depend>
+  <exec_depend>roslib</exec_depend>
+  <exec_depend>roslz4</exec_depend>
+  <exec_depend>rosmaster</exec_depend>
+  <exec_depend>rosmsg</exec_depend>
+  <exec_depend>rosnode</exec_depend>
+  <exec_depend>rosout</exec_depend>
+  <exec_depend>rospack</exec_depend>
+  <exec_depend>rosparam</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>rosservice</exec_depend>
+  <exec_depend>rostest</exec_depend>
+  <exec_depend>rostime</exec_depend>
+  <exec_depend>rostopic</exec_depend>
+  <exec_depend>rosunit</exec_depend>
+  <exec_depend>roswtf</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>std_srvs</exec_depend>
+  <exec_depend>tf</exec_depend>
+  <exec_depend>tf2</exec_depend>
+  <exec_depend>tf2_msgs</exec_depend>
+  <exec_depend>tf2_py</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>topic_tools</exec_depend>
+  <exec_depend>xmlrpcpp</exec_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
