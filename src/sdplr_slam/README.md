@@ -1,4 +1,4 @@
-# SSL_SLAM
+# SPDLR_SLAM
 ## Lightweight 3-D Localization and Mapping for Solid-State LiDAR (Intel Realsense L515 as an example)
 
 
